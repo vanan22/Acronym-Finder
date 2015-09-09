@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DD1A3D49DCCC549D328DA0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C18E899CB83BC99AF87827E /* libPods.a */; };
+		7F06E5681B8EE13400632786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E5671B8EE13400632786 /* main.m */; };
+		7F06E56B1B8EE13400632786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E56A1B8EE13400632786 /* AppDelegate.m */; };
+		7F06E56E1B8EE13400632786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E56D1B8EE13400632786 /* ViewController.m */; };
+		7F06E5711B8EE13400632786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F06E56F1B8EE13400632786 /* Main.storyboard */; };
+		7F06E5731B8EE13400632786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F06E5721B8EE13400632786 /* Assets.xcassets */; };
+		7F06E5761B8EE13400632786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F06E5741B8EE13400632786 /* LaunchScreen.storyboard */; };
+		7F06E5811B8EE13400632786 /* Acronym_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E5801B8EE13400632786 /* Acronym_FinderTests.m */; };
+		7F06E58C1B8EE13400632786 /* Acronym_FinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E58B1B8EE13400632786 /* Acronym_FinderUITests.m */; };
+		7F06E59B1B8EF61B00632786 /* ResultsDisplayTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06E59A1B8EF61B00632786 /* ResultsDisplayTVCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F06E57D1B8EE13400632786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F06E55B1B8EE13400632786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F06E5621B8EE13400632786;
+			remoteInfo = "Acronym Finder";
+		};
+		7F06E5881B8EE13400632786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F06E55B1B8EE13400632786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F06E5621B8EE13400632786;
+			remoteInfo = "Acronym Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA85326BE265F37F46821E1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3C18E899CB83BC99AF87827E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F06E5631B8EE13400632786 /* Acronym Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acronym Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F06E5671B8EE13400632786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F06E5691B8EE13400632786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F06E56A1B8EE13400632786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F06E56C1B8EE13400632786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F06E56D1B8EE13400632786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F06E5701B8EE13400632786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F06E5721B8EE13400632786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F06E5751B8EE13400632786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F06E5771B8EE13400632786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F06E57C1B8EE13400632786 /* Acronym FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acronym FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F06E5801B8EE13400632786 /* Acronym_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acronym_FinderTests.m; sourceTree = "<group>"; };
+		7F06E5821B8EE13400632786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F06E5871B8EE13400632786 /* Acronym FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acronym FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F06E58B1B8EE13400632786 /* Acronym_FinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acronym_FinderUITests.m; sourceTree = "<group>"; };
+		7F06E58D1B8EE13400632786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F06E5991B8EF61B00632786 /* ResultsDisplayTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsDisplayTVCell.h; sourceTree = "<group>"; };
+		7F06E59A1B8EF61B00632786 /* ResultsDisplayTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsDisplayTVCell.m; sourceTree = "<group>"; };
+		BFBE3A47F2796F2EFDC3416E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F06E5601B8EE13400632786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DD1A3D49DCCC549D328DA0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E5791B8EE13400632786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E5841B8EE13400632786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F06E55A1B8EE13400632786 = {
+			isa = PBXGroup;
+			children = (
+				7F06E5651B8EE13400632786 /* Acronym Finder */,
+				7F06E57F1B8EE13400632786 /* Acronym FinderTests */,
+				7F06E58A1B8EE13400632786 /* Acronym FinderUITests */,
+				7F06E5641B8EE13400632786 /* Products */,
+				970A41A7C85DF1CFB18598ED /* Pods */,
+				C971E63585F31BE5CEE20C99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F06E5641B8EE13400632786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F06E5631B8EE13400632786 /* Acronym Finder.app */,
+				7F06E57C1B8EE13400632786 /* Acronym FinderTests.xctest */,
+				7F06E5871B8EE13400632786 /* Acronym FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F06E5651B8EE13400632786 /* Acronym Finder */ = {
+			isa = PBXGroup;
+			children = (
+				7F06E5691B8EE13400632786 /* AppDelegate.h */,
+				7F06E56A1B8EE13400632786 /* AppDelegate.m */,
+				7F06E56C1B8EE13400632786 /* ViewController.h */,
+				7F06E56D1B8EE13400632786 /* ViewController.m */,
+				7F06E56F1B8EE13400632786 /* Main.storyboard */,
+				7F06E5991B8EF61B00632786 /* ResultsDisplayTVCell.h */,
+				7F06E59A1B8EF61B00632786 /* ResultsDisplayTVCell.m */,
+				7F06E5721B8EE13400632786 /* Assets.xcassets */,
+				7F06E5741B8EE13400632786 /* LaunchScreen.storyboard */,
+				7F06E5771B8EE13400632786 /* Info.plist */,
+				7F06E5661B8EE13400632786 /* Supporting Files */,
+			);
+			path = "Acronym Finder";
+			sourceTree = "<group>";
+		};
+		7F06E5661B8EE13400632786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F06E5671B8EE13400632786 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F06E57F1B8EE13400632786 /* Acronym FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F06E5801B8EE13400632786 /* Acronym_FinderTests.m */,
+				7F06E5821B8EE13400632786 /* Info.plist */,
+			);
+			path = "Acronym FinderTests";
+			sourceTree = "<group>";
+		};
+		7F06E58A1B8EE13400632786 /* Acronym FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F06E58B1B8EE13400632786 /* Acronym_FinderUITests.m */,
+				7F06E58D1B8EE13400632786 /* Info.plist */,
+			);
+			path = "Acronym FinderUITests";
+			sourceTree = "<group>";
+		};
+		970A41A7C85DF1CFB18598ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE3A47F2796F2EFDC3416E /* Pods.debug.xcconfig */,
+				2FA85326BE265F37F46821E1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C971E63585F31BE5CEE20C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C18E899CB83BC99AF87827E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F06E5621B8EE13400632786 /* Acronym Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F06E5901B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym Finder" */;
+			buildPhases = (
+				45C876E504EE62FCABE6A11D /* Check Pods Manifest.lock */,
+				7F06E55F1B8EE13400632786 /* Sources */,
+				7F06E5601B8EE13400632786 /* Frameworks */,
+				7F06E5611B8EE13400632786 /* Resources */,
+				C0A7CA0A3F12EADCE96C448A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acronym Finder";
+			productName = "Acronym Finder";
+			productReference = 7F06E5631B8EE13400632786 /* Acronym Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F06E57B1B8EE13400632786 /* Acronym FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F06E5931B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym FinderTests" */;
+			buildPhases = (
+				7F06E5781B8EE13400632786 /* Sources */,
+				7F06E5791B8EE13400632786 /* Frameworks */,
+				7F06E57A1B8EE13400632786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F06E57E1B8EE13400632786 /* PBXTargetDependency */,
+			);
+			name = "Acronym FinderTests";
+			productName = "Acronym FinderTests";
+			productReference = 7F06E57C1B8EE13400632786 /* Acronym FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F06E5861B8EE13400632786 /* Acronym FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F06E5961B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym FinderUITests" */;
+			buildPhases = (
+				7F06E5831B8EE13400632786 /* Sources */,
+				7F06E5841B8EE13400632786 /* Frameworks */,
+				7F06E5851B8EE13400632786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F06E5891B8EE13400632786 /* PBXTargetDependency */,
+			);
+			name = "Acronym FinderUITests";
+			productName = "Acronym FinderUITests";
+			productReference = 7F06E5871B8EE13400632786 /* Acronym FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F06E55B1B8EE13400632786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Santhosh Ramaraju";
+				TargetAttributes = {
+					7F06E5621B8EE13400632786 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7F06E57B1B8EE13400632786 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7F06E5621B8EE13400632786;
+					};
+					7F06E5861B8EE13400632786 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7F06E5621B8EE13400632786;
+					};
+				};
+			};
+			buildConfigurationList = 7F06E55E1B8EE13400632786 /* Build configuration list for PBXProject "Acronym Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F06E55A1B8EE13400632786;
+			productRefGroup = 7F06E5641B8EE13400632786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F06E5621B8EE13400632786 /* Acronym Finder */,
+				7F06E57B1B8EE13400632786 /* Acronym FinderTests */,
+				7F06E5861B8EE13400632786 /* Acronym FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F06E5611B8EE13400632786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F06E5761B8EE13400632786 /* LaunchScreen.storyboard in Resources */,
+				7F06E5731B8EE13400632786 /* Assets.xcassets in Resources */,
+				7F06E5711B8EE13400632786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E57A1B8EE13400632786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E5851B8EE13400632786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C876E504EE62FCABE6A11D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A7CA0A3F12EADCE96C448A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F06E55F1B8EE13400632786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F06E56E1B8EE13400632786 /* ViewController.m in Sources */,
+				7F06E56B1B8EE13400632786 /* AppDelegate.m in Sources */,
+				7F06E5681B8EE13400632786 /* main.m in Sources */,
+				7F06E59B1B8EF61B00632786 /* ResultsDisplayTVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E5781B8EE13400632786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F06E5811B8EE13400632786 /* Acronym_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06E5831B8EE13400632786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F06E58C1B8EE13400632786 /* Acronym_FinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F06E57E1B8EE13400632786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F06E5621B8EE13400632786 /* Acronym Finder */;
+			targetProxy = 7F06E57D1B8EE13400632786 /* PBXContainerItemProxy */;
+		};
+		7F06E5891B8EE13400632786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F06E5621B8EE13400632786 /* Acronym Finder */;
+			targetProxy = 7F06E5881B8EE13400632786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F06E56F1B8EE13400632786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F06E5701B8EE13400632786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F06E5741B8EE13400632786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F06E5751B8EE13400632786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F06E58E1B8EE13500632786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F06E58F1B8EE13500632786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F06E5911B8EE13500632786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBE3A47F2796F2EFDC3416E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acronym Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F06E5921B8EE13500632786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA85326BE265F37F46821E1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acronym Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F06E5941B8EE13500632786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acronym FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acronym Finder.app/Acronym Finder";
+			};
+			name = Debug;
+		};
+		7F06E5951B8EE13500632786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acronym FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acronym Finder.app/Acronym Finder";
+			};
+			name = Release;
+		};
+		7F06E5971B8EE13500632786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acronym FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acronym Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7F06E5981B8EE13500632786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acronym FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.millionDollarCompany.Acronym-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acronym Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F06E55E1B8EE13400632786 /* Build configuration list for PBXProject "Acronym Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06E58E1B8EE13500632786 /* Debug */,
+				7F06E58F1B8EE13500632786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F06E5901B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06E5911B8EE13500632786 /* Debug */,
+				7F06E5921B8EE13500632786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F06E5931B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06E5941B8EE13500632786 /* Debug */,
+				7F06E5951B8EE13500632786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F06E5961B8EE13500632786 /* Build configuration list for PBXNativeTarget "Acronym FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06E5971B8EE13500632786 /* Debug */,
+				7F06E5981B8EE13500632786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F06E55B1B8EE13400632786 /* Project object */;
+}
